@@ -1,0 +1,150 @@
+/********************************
+Colors
+*******************************/
+$blue : #1F3384;
+$ltblue: #418FDE;
+$darkblue : darken($blue, 5%);
+$red : #ED1C24;
+$ltgreen: #B9D65B;
+$green: #3F997D;
+$darkgreen: #183F29;
+$tan : #9B8B5D;
+$gold : #A08A58;
+$pink : #EE2C70;
+$orange : #EF880A;
+
+/*Greys*/
+$greygreen : #C5CFCA;
+$grey : #909090;
+$midgrey: #111111;
+$darkgrey : #404042;
+$black : #000;
+$ltgrey: #E1E1E1;
+$white: rgba(#fff, 0.70);
+$yellow : #FFFBEB;
+$ltpink : #fdf8f9;
+
+
+/********************************
+Global Color Pallete
+*******************************/
+$primary-color: $pink;
+$secondary-color: $darkgrey;
+$color-1: $darkgreen;
+$color-2: $yellow;
+
+$color-black : $black;
+$color-white : #fff;
+$color-dark-grey: $darkgrey;
+$color-grey : $grey;
+$color-light-grey: $ltgrey;
+
+/********************************
+Font Families
+*******************************/
+$primary-font-family:  "axiformabook", 'Helvetica', sans-serif;
+$secondary-font-family: $primary-font-family;
+$third-font-family : $primary-font-family;
+
+/********************************
+Padding Sizing
+*******************************/
+$padding-sm: 15px;
+$padding-md: 30px;
+$padding-lg: 60px;
+$padding-xlg: 90px;
+
+/********************************
+Font Sizes
+*******************************/
+$default-font-size: 16px;
+$mobile-font-size: 14px;
+$sm-font-size: 14px;
+$md-font-size: 20px;
+$lg-font-size: 26px;
+$xlg-font-size: 70px;
+
+/********************************
+Header Font Properties
+*******************************/
+$h1-font-size : 28px;
+$h2-font-size : 24px;
+$h3-font-size : 20px;
+$h4-font-size : 18px;
+$heading-font-weight: 500;
+$heading-font-family: $primary-font-family;
+$header-text-transform: none;
+
+/********************************
+Font Properties
+*******************************/
+$letter-spacing : 1.2px;
+$line-height : 1.5;
+
+/********************************
+Font Colors
+*******************************/
+$default-font-color: #5C5C5C;
+$dark-font-color: $default-font-color;
+$default-header-color: $primary-color;
+
+/********************************
+Global Variables
+*******************************/
+$dark-text-shadow: 0px 2px 4px rgba($color-black, 0.5);
+$light-text-shadow: 1px 2px 1px rgba(#fff, 0.3);
+$dark-text-shadow-heavy : 2px 2px 4px rgba($color-black, 0.5);
+$light-text-shadow-heavy : 2px 2px 4px rgba(#fff, 0.5);
+$drop-shadow: 0 1px 10px 0 rgba($secondary-color, 0.15);
+$border-color: $color-light-grey;
+
+/********************************
+Buttons
+*******************************/
+$btn-default: $color-white;
+$btn-default-hover: $secondary-color;
+$btn-font: $third-font-family;
+$btn-font-size: 15px;
+$btn-font-color: $primary-color;
+$btn-font-weight: 300;
+$btn-round: 30px;
+$btn-padding-default: 5px 30px;
+$btn-padding-sm: 8px 20px;
+$btn-padding-lg: 8px 60px;
+$btn-text-transform: uppercase;
+$btn-border-size: 1px;
+$btn-border-color: $secondary-color;
+
+/********************************
+* Site
+*******************************/
+$site-background-color: #fff; 
+$site-link-color: $secondary-color;
+$site-link-color-hover : darken($secondary-color, 10%);
+
+/********************************
+* Site Header
+*******************************/
+$header-height : auto;
+$header-background-color: transparent;
+$header-border: none;
+
+/********************************
+* Footer
+*******************************/
+$footer-padding: $padding-md 0;
+$footer-background-color: transparent;
+$footer-title-color: $secondary-color;
+$footer-title-size: $lg-font-size;
+$footer-font-color: $default-font-color;
+$footer-font-size: $default-font-size;
+$footer-link-color: $default-font-color;
+
+/********************************
+* Page
+*******************************/
+$page-header-font-color : $color-white;
+$page-header-background : $color-white;
+$page-header-padding: $padding-lg 0;
+$page-title-size: 38px;
+$page-title-font-weight : 400;

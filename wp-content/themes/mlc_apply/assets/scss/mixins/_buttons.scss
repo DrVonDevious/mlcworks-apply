@@ -1,0 +1,29 @@
+@mixin btn(
+		$bg : $btn-default, 
+		$fontColor: $btn-font-color,
+		$hoverColor : $color-white,
+		$fontSize: $btn-font-size
+) {
+	padding: $btn-padding-default;
+	font-weight: $btn-font-weight;
+	display: inline-block;
+	font-size: $fontSize;
+	background-color: $bg;
+	color: $fontColor;
+	text-align: center;
+	transition: background 0.3;
+	border: $btn-border-size solid $btn-border-color;
+	position: relative;
+	font-family: $btn-font;
+	text-transform: $btn-text-transform;
+	border-radius: $btn-round;
+	cursor: pointer;
+	&:hover{
+		color: #fff;
+		background: $btn-default-hover;
+	}
+
+	@include media-breakpoint-down(sm) {
+		white-space: normal;
+	}
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'axiformabook';
+    src: url('fonts/axiforma/kastelov_-_axiforma_book-webfont.woff2') format('woff2'),
+         url('fonts/axiforma/kastelov_-_axiforma_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'axiformabold';
+    src: url('fonts/axiforma/kastelov_-_axiforma_bold-webfont.woff2') format('woff2'),
+         url('fonts/axiforma/kastelov_-_axiforma_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'axiformabold_italic';
+    src: url('fonts/axiforma/kastelov_-_axiforma_bold_italic-webfont.woff2') format('woff2'),
+         url('fonts/axiforma/kastelov_-_axiforma_bold_italic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

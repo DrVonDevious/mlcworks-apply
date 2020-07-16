@@ -1,0 +1,87 @@
+/*
+	Navigation - All navigation menus used throughout site. 
+	- Unless project scope calls for unique mobile, Desktop & Mobile navigation should
+	share the registered menu from the theme labeled "primary"
+*/
+#menu-main-navigation {
+	@include rem(margin-top, 20px);
+	ul {
+		@include resetUl;
+	}
+
+	a {
+		display: block;
+		font-weight: 500;
+		text-align: center;
+		display: block;
+	}
+	
+	> .row {
+		> li {
+			@include rem(margin-right, $main_nav_item_margin);
+			@include rem(padding, 0);
+			position: relative;
+			&:before {
+				content:'\2022';
+				position: absolute;
+				@include rem(top, 3px);
+				bottom: 0;
+				@include rem(right, -8px);
+				@include rem(width, 12.5px);
+				@include rem(height, 12.5px);
+				color: $secondary-color;
+			}
+			&:last-child {
+				margin-right: 0;
+				&:before {
+					display: none;
+				}
+			}
+			> a {
+				@include rem(padding, $main_nav_item_padding);
+				@include rem(font-size, $main_nav_font_size);
+				font-family: $main_nav_font_family;
+				color: $main_nav_color;
+				font-weight: $main_nav_font_weight;
+				text-transform: $main_nav_text_transform;
+				/*border-radius: 25px;*/
+				border-bottom: 2px solid transparent
+			}
+			&:hover, &.active {
+				> a {
+					color: $secondary-color;
+					border-bottom: 2px solid $secondary-color;
+				}
+			}
+		}
+	}
+
+	.level-1 {
+		&:hover {
+			.sub-menu {
+				visibility: visible;
+				opacity: 1.0;
+			}
+		}
+	}
+
+	.sub-menu {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: $sub_menu_width;
+		background: $sub_menu_bg_color;
+		visibility: hidden;
+		opacity: 0;
+		z-index: 100;
+		@include transition(opacity 0.3s ease);
+		a {
+			color: $color-white;
+			@include rem(padding, $sub_menu_item_padding);
+			&:hover {
+				background: $sub_menu_item_hover;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.alignright{
+	float: right;
+	@include rem(margin, 0 0 10px 10px);
+}
+
+.alignleft{
+	float: left;
+	@include rem(margin, 0 10px 10px 0);
+}
+
+.align-items-center {
+	align-items: center !important;
+}
+
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.mobile-order-last {
+	@include media_breakpoint_down(sm) {
+		order: 5;
+	}
+}

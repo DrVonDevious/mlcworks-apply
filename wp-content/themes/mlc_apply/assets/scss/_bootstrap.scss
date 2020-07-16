@@ -1,0 +1,43 @@
+
+
+/* Import Bootstrap Necessities */
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+/********************************
+Grid / Responsive Breakpoints Settings
+*******************************/
+$grid-width: 970px;
+
+$xsm-break: 480px;
+$sm-break: 667px;
+$md-break: 768px;
+$lg-break: $grid-width;
+$xlg-break: 1440px;
+
+/********************************
+Override Bootstrap Defaults
+*******************************/
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $sm-break,
+  md: $md-break,
+  lg: $lg-break,
+  xl: $xlg-break
+);
+
+$container-max-widths: (
+  sm: $grid-width,
+  md: $grid-width,
+  lg: $grid-width,
+  xl: $grid-width
+);
+
+/* Import Bootstrap Grid System */
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities/display";
+@import "../../node_modules/bootstrap/scss/utilities/flex";
+
+/* Reboot - Normalize the Browser */
+@import "../../node_modules/bootstrap/scss/reboot";

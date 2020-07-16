@@ -1,0 +1,13 @@
+.footer{
+	padding: $footer-padding;
+	margin-top: $padding-lg;
+	border-top: 1px solid $border-color;
+	&--logo {
+		svg {
+			width: 65px;
+			height: 75px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}

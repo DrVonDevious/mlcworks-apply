@@ -1,0 +1,12 @@
+.alert {
+	text-align: center;
+	@include rem(max-width, 670px);
+	@include rem(margin, 0 auto 30px);
+	background: $color-light-grey;
+	font-weight: bold;
+	@include rem(padding, 15px);
+	&--success {
+		background: $color-1;
+		color: #fff;
+	}
+}

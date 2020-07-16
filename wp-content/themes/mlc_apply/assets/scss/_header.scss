@@ -1,0 +1,32 @@
+.header{
+	background: $primary-color;
+	padding: $padding-sm 0;
+	&--logo {
+		svg {
+			width: 65px;
+			height: 75px;
+			padding: 10px;
+			.square {
+				fill: $color-white;
+				&-top, &-bottom {
+					transition: transform 0.3s ease;
+				}
+			}
+			&:hover {
+				.square {
+					fill: $color-black;
+					&-top {
+						transform: translateY(-10px);
+					}
+					&-bottom {
+						transform: translateY(10px);
+					}
+				}
+			}
+		}
+	}
+
+	&--title {
+		color: $color-white;
+	}
+}

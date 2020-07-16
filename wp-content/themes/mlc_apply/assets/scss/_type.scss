@@ -1,0 +1,38 @@
+/*
+* Typography
+*/
+
+html{
+	font-size: $default-font-size;
+	@include media-breakpoint-down(sm) {
+		font-size: $mobile-font-size;
+	}
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $heading-font-family;
+	color: $default-header-color;
+	font-weight: $heading-font-weight;
+}
+
+h1, .h1 { font-size: $h1-font-size; }
+h2, .h2 { 
+	font-size: $h2-font-size;
+	line-height: 1.3;
+	/*text-transform: uppercase;*/
+	@include media-breakpoint-down(sm) {
+		font-size: 28px;
+	}
+}
+h3, .h3 { 
+	font-size: $h3-font-size;
+	line-height: 1.3;
+	@include rem(margin, 0 0 $padding-sm);
+	@include media-breakpoint-down(sm) {
+		font-size: 24px;
+	}
+}
+h4, .h4 { 
+	font-size: $h4-font-size;
+}

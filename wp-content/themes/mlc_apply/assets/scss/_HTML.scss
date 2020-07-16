@@ -1,0 +1,76 @@
+/*
+	HTML Elements
+*/
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*:focus, button:focus{
+	outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	color: $default-font-color;
+	font-size: 100%;
+	font-family: $primary-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: $letter-spacing;
+	background: $site-background-color;
+	&.freeze{
+		overflow-y: hidden;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	> svg {
+		display: none;
+	}
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: $site-link-color;
+	&:hover {
+		text-decoration: none;
+		color: $site-link-color-hover;
+	}
+}
+
+figure {
+	&.alignright {
+		@include media-breakpoint-down(sm) {
+			float: none;
+			display: block;
+			margin: 15px auto;
+		}
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+img.aligncenter{
+	display: block;
+	@include rem(margin, 15px auto 0);
+}
+
+iframe{
+	max-width: 100%;
+}
+
+
+.screen-reader-text{
+	display: none;
+}

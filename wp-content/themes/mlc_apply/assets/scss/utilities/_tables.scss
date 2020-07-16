@@ -1,0 +1,16 @@
+.table {
+	width: 100%;
+	thead {
+		td {
+			font-weight: bold;
+		}
+	}
+	td {
+		@include rem(padding, 5px);
+	}
+	tr:nth-child(even) {
+		td {
+			background: $color-light-grey;
+		}
+	}
+}

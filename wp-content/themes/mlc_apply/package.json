@@ -1,0 +1,96 @@
+{
+  "name": "mlcworks",
+  "description": "Custom website built by MLCworks",
+  "version": "1.0.0",
+  "author": "Josh Bertrand (joshb@mlcworks.com))",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadawais/WPGulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@svgr/webpack": "^5.4.0",
+    "babel-loader": "^8.1.0",
+    "beepbeep": "^1.3.0",
+    "browser-sync": "^2.11.1",
+    "eslint": "^5.5.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-filter": "^5.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-rtlcss": "^1.4.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "image-webpack-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "react-habitat": "^1.0.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "start": "gulp",
+    "styles": "gulp styles",
+    "stylesRTL": "gulp stylesRTL",
+    "vendorsJS": "gulp vendorsJS",
+    "customJS": "gulp customJS",
+    "images": "gulp images",
+    "clearCache": "gulp clearCache",
+    "translate": "gulp translate",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-preact": "^2.0.0",
+    "babel-preset-react-native": "^4.0.1",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.5.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-svgstore": "^7.0.1",
+    "idempotent-babel-polyfill": "^7.4.4",
+    "popper.js": "^1.14.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-svg": "^12.1.0",
+    "react-slick": "^0.25.2",
+    "react-timeout": "^1.2.0",
+    "require": "^2.4.20",
+    "slick-carousel": "^1.8.1",
+    "validator": "^11.1.0",
+    "webpack": "^4.43.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  }
+}

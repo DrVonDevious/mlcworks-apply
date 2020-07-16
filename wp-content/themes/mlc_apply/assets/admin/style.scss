@@ -1,0 +1,108 @@
+/*
+* Libraries 
+* - Gravity Forms
+* - Bootstrap
+*/
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+/* Import Bootstrap Grid System */
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities/display";
+@import "../../node_modules/bootstrap/scss/utilities/flex";
+@import "../../node_modules/bootstrap/scss/utilities/spacing";
+
+$grid-width: 1170px;
+
+$xsm-break: 480px;
+$sm-break: 667px;
+$md-break: 960px;
+$lg-break: $grid-width;
+$xlg-break: 1440px;
+/*
+* Theme
+*/
+ @import "../scss/fonts";
+ @import "../scss/variables";
+ @import "../scss/mixins";
+ /*@import "../scss/HTML";*/
+ @import "../scss/grid";
+ /*@import "../scss/type";*/
+ @import "../scss/utilities";
+ @import "../scss/modules";
+ @import "../scss/post";
+ @import "../scss/fonts";
+ /*@import "../scss/page";*/
+ @import "../scss/entry";
+ @import "../scss/pages";
+
+ @import "../scss/archive";
+ @import "../scss/is-styled";
+
+
+#wpbody {
+	.page-title {
+		text-transform: none;
+	}
+}
+
+body {
+	> svg {
+		display: none;
+	}
+}
+.block-editor-block-list__layout {
+	@import "../scss/HTML";
+	@import "../scss/type";
+	@import "../scss/acf";
+	.wp-block {
+		max-width: 1440px;
+		ul {
+			/*@include resetul;*/
+		}
+		.editor-rich-text__tinymce {
+			a.btn, .button a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+		.button:not(.acf-button) {
+			border-color: transparent;
+			background: transparent;
+			box-shadow: none;
+			a {
+				color: $primary-color;
+				text-decoration: none;
+			}
+		}
+		.animate {
+			opacity: 1.0;
+		}
+		.pdf-display--item {
+			opacity: 1.0;
+			transform: translateY(0);
+		}
+	}
+
+	.react-photo-gallery--gallery {
+		img {
+			max-height: 310px;
+		}
+	}
+	.block-editor-inner-blocks {
+		width: 100%;
+	}
+	.gform_fields {
+		list-style-type: none;
+	}
+}
+.editor-styles-wrapper.edit-post-visual-editor {
+	/*font-family: $primary-font-family;*/
+}
+.block-editor__container img {
+	height: auto!important;
+}
+.block-editor-block-list__layout .block-editor-block-list__block[data-align=full] {
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
