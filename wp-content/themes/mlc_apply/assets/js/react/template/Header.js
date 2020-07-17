@@ -1,7 +1,7 @@
 import React 					from 'react'
 import {htmlDecode} 			from '../helpers/functions'
 import {viewports} 				from '../helpers/viewports'
-import MainLogo 				from '../../../../assets/svg/MlcSquare.svg'
+import MainLogo 				from '../../../../assets/svg/MlcLogo.svg'
 
 class Header extends React.PureComponent {
 
@@ -50,12 +50,12 @@ class Header extends React.PureComponent {
 			<header id="header" className={fromTop > 300 ? `header sticky` : `header`}>
 				<div className="container">
 					<div className="row align-items-center">
-						<div className="col-sm-1">
+						<div className="col-sm-3">
 							<a href={site_url} className={`header--logo`}>
 								<MainLogo />
 							</a>
 						</div>
-						<div className="col-sm-11">
+						<div className="col-sm-9">
 							{
 								site_name &&
 								<h1 className={`header--title`} dangerouslySetInnerHTML={{ __html: htmlDecode(site_name) }} />

@@ -3,9 +3,8 @@
 	padding: $padding-sm 0;
 	&--logo {
 		svg {
-			width: 65px;
-			height: 75px;
-			padding: 10px;
+			width: 197px;
+			height: 37px;
 			.square {
 				fill: $color-white;
 				&-top, &-bottom {
@@ -28,5 +27,6 @@
 
 	&--title {
 		color: $color-white;
+		margin: 0;
 	}
 }

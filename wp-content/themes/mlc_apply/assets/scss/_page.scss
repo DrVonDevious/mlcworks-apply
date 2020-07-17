@@ -47,5 +47,18 @@
 				color: $primary-color;
 			}
 		}
+		.wp-block-code {
+			padding: 5px 0;
+			height: 60px;
+			code {
+				padding: $padding-sm;
+				background: $border-color;
+				border-radius: 15px;
+			}
+		}
+
+		h2 {
+			margin: $padding-md 0 $padding-sm;
+		}
 	}
 }
