@@ -61,11 +61,6 @@ img {
 	max-width: 100%;
 }
 
-img.aligncenter{
-	display: block;
-	@include rem(margin, 15px auto 0);
-}
-
 iframe{
 	max-width: 100%;
 }

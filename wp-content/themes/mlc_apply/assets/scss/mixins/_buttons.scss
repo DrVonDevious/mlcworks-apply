@@ -18,8 +18,9 @@
 	text-transform: $btn-text-transform;
 	border-radius: $btn-round;
 	cursor: pointer;
+	text-decoration: none;
 	&:hover{
-		color: #fff;
+		color: #fff!important;
 		background: $btn-default-hover;
 	}
 

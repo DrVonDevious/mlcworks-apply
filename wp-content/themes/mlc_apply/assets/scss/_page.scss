@@ -7,26 +7,13 @@
 		background: $page-header-background;
 		color: $page-header-font-color;
 		position: relative;
-		@include rem(margin-bottom, $padding-lg);
+		margin-bottom: $padding-lg;
 		text-align: center;
 		background-size: cover;
-		@include media-breakpoint-down(sm) {
-			@include rem(margin-bottom, $padding-md);
-		}
-		&--content {
-			@include rem(padding, $page-header-padding);
-		}
-		@include media-breakpoint-down(md) {
-			text-align: center;
-		}
-		&--image {
-			width: 100%;
-			height: auto;
-		}
 	}
 	&-title {
 		margin: 0;
-		@include rem(font-size, $page-title-size);
+		font-size: $page-title-size;
 		font-weight: $page-title-font-weight;
 		color: $page-header-font-color;
 		text-transform: uppercase;
@@ -40,7 +27,7 @@
 		@include media-breakpoint-down(md) {
 			padding: $padding-md;
 		}
-		a:not(.btn) {
+		a:not(.btn){
 			text-decoration: underline;
 			font-weight: 600;
 			&:hover {
@@ -48,13 +35,19 @@
 			}
 		}
 		.wp-block-code {
-			padding: 5px 0;
-			height: 60px;
+			padding: 5px;
+			/*min-height: 60px;*/
+			background: $border-color;
+			border-radius: 15px;
+			color: $secondary-color;
 			code {
 				padding: $padding-sm;
-				background: $border-color;
-				border-radius: 15px;
+				
 			}
+		}
+
+		img {
+			margin: 15px auto;
 		}
 
 		h2 {

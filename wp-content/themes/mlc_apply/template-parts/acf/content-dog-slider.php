@@ -1,13 +1,13 @@
 <?php 
 	$data = array();
 
-	$count = get_field('slide_count');
+	$slide_count = get_field('slide_count');
 
 	$data['slides'] = array();
-	for($i = 0; $i < $count; $i++) {
+	for($i = 0; $i < $slide_count; $i++) {
 		$data['slides'][] = array(
 			'img' => 'https://placedog.net/970/400',
-			'alt' => 'Dog Image Number ' . $count,
+			'alt' => 'Dog Image Number ' . ($i + 1),
 		);
 	}
  ?>

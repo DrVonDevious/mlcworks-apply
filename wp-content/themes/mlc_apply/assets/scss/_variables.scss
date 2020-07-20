@@ -57,7 +57,7 @@ $padding-xlg: 90px;
 /********************************
 Font Sizes
 *******************************/
-$default-font-size: 16px;
+$default-font-size: 14px;
 $mobile-font-size: 14px;
 $sm-font-size: 14px;
 $md-font-size: 20px;
@@ -70,7 +70,7 @@ Header Font Properties
 $h1-font-size : 28px;
 $h2-font-size : 24px;
 $h3-font-size : 20px;
-$h4-font-size : 18px;
+$h4-font-size : 16px;
 $heading-font-weight: 500;
 $heading-font-family: $primary-font-family;
 $header-text-transform: none;
@@ -79,14 +79,14 @@ $header-text-transform: none;
 Font Properties
 *******************************/
 $letter-spacing : 1.2px;
-$line-height : 1.5;
+$line-height : 1.9;
 
 /********************************
 Font Colors
 *******************************/
-$default-font-color: #5C5C5C;
+$default-font-color: lighten(#5C5C5C, 10%);
 $dark-font-color: $default-font-color;
-$default-header-color: $primary-color;
+$default-header-color: $secondary-color;
 
 /********************************
 Global Variables
@@ -102,7 +102,7 @@ $border-color: $color-light-grey;
 Buttons
 *******************************/
 $btn-default: $color-white;
-$btn-default-hover: $secondary-color;
+$btn-default-hover: $primary-color;
 $btn-font: $third-font-family;
 $btn-font-size: 15px;
 $btn-font-color: $primary-color;

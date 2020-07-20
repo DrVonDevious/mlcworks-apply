@@ -1,3 +1,10 @@
 .btn {
     @include btn();
 }
+
+.button {
+	a {
+		@include btn();
+		text-decoration: none!important;
+	}
+}

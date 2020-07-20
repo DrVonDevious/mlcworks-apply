@@ -8,12 +8,12 @@
 defined( 'ABSPATH' ) or die();
 
 if( function_exists('acf_register_block') ) {
-	// Contact Block
+	// Include all our blocks
 	add_action('acf/init', 'acf_mlc_blocks');
 }
 
 function acf_mlc_blocks() {
-	// Hero Banner
+	// Dog Slider
 	acf_register_block(array(
 		'name'				=> 'dog-slider',
 		'title'				=> __('Dog Slider'),
@@ -22,6 +22,16 @@ function acf_mlc_blocks() {
 		'category'			=> 'formatting',
 		'icon'				=> 'admin-comments',
 		'keywords'			=> array( 'dog', 'dog slider' , 'slider'),
+	));
+	// My New Block
+	acf_register_block(array(
+		'name'				=> 'my-new-block',
+		'title'				=> __('My New Block'),
+		'description'		=> __('Really just a dog slider'),
+		'render_callback'	=> 'acf_block_render_callback',
+		'category'			=> 'formatting',
+		'icon'				=> 'admin-comments',
+		'keywords'			=> array( 'block', 'new' , 'new block'),
 	));
 }
 
