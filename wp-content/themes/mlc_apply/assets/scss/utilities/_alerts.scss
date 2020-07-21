@@ -1,12 +1,24 @@
-.alert {
-	text-align: center;
-	@include rem(max-width, 670px);
-	@include rem(margin, 0 auto 30px);
-	background: $color-light-grey;
-	font-weight: bold;
-	@include rem(padding, 15px);
-	&--success {
-		background: $color-1;
-		color: #fff;
+.info {
+	background: $color-2;
+	padding: 10px;
+	margin: 1em 0;
+	font-size: 12px;
+	display: inline-block;
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.note {
+	background: $color-1;
+	padding: 15px;
+	margin: 1em 0;
+	font-size: 12px;
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }

@@ -22,23 +22,13 @@ $xlg-break: 1440px;
 /*
 * Theme
 */
- @import "../scss/fonts";
- @import "../scss/variables";
- @import "../scss/mixins";
- /*@import "../scss/HTML";*/
- @import "../scss/grid";
- /*@import "../scss/type";*/
- @import "../scss/utilities";
- @import "../scss/modules";
- @import "../scss/post";
- @import "../scss/fonts";
- /*@import "../scss/page";*/
- @import "../scss/entry";
- @import "../scss/pages";
 
- @import "../scss/archive";
- @import "../scss/is-styled";
-
+@import "../scss/fonts";
+@import "../scss/variables";
+@import "../scss/mixins";
+@import "../scss/utilities";
+@import "../scss/modules";
+@import "../scss/page";
 
 #wpbody {
 	.page-title {
@@ -51,7 +41,8 @@ body {
 		display: none;
 	}
 }
-.block-editor-block-list__layout {
+.block-editor-block-list__layout, .editor-styles-wrapper {
+
 	@import "../scss/HTML";
 	@import "../scss/type";
 	@import "../scss/acf";

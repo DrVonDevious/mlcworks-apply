@@ -149,32 +149,61 @@ output{display:inline-block}
 summary{display:list-item;cursor:pointer}
 template{display:none}
 [hidden]{display:none !important}
-@font-face{font-family:'axiformabook';src:url("fonts/axiforma/kastelov_-_axiforma_book-webfont.woff2") format("woff2"),url("fonts/axiforma/kastelov_-_axiforma_book-webfont.woff") format("woff");font-weight:normal;font-style:normal;font-display:swap}
-@font-face{font-family:'axiformabold';src:url("fonts/axiforma/kastelov_-_axiforma_bold-webfont.woff2") format("woff2"),url("fonts/axiforma/kastelov_-_axiforma_bold-webfont.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:'axiformabold_italic';src:url("fonts/axiforma/kastelov_-_axiforma_bold_italic-webfont.woff2") format("woff2"),url("fonts/axiforma/kastelov_-_axiforma_bold_italic-webfont.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;font-display:swap;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;font-display:swap;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+1F00-1FFF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0370-03FF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:swap;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+1F00-1FFF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0370-03FF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 *{-webkit-box-sizing:border-box;box-sizing:border-box}
 *:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box}
 *:focus,button:focus{outline:0}
 html{scroll-behavior:smooth}
-body{color:#767575;font-size:100%;font-family:"axiformabook","Helvetica",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;letter-spacing:1.2px;background:#fff}
+body{color:#000;font-size:100%;font-family:"Open Sans","Helvetica",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;letter-spacing:1.2px;background:#fff}
 body.freeze{overflow-y:hidden;position:fixed;left:0;right:0;top:0;bottom:0}
 body>svg{display:none}
-a{text-decoration:none;cursor:pointer;color:#404042}
-a:hover{text-decoration:none;color:#272728}
+a{text-decoration:none;cursor:pointer;color:#000}
+a:hover{text-decoration:none;color:black}
 img{max-width:100%}
 iframe{max-width:100%}
 .screen-reader-text{display:none}
 html{font-size:14px}
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"axiformabook","Helvetica",sans-serif;color:#404042;font-weight:500}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Open Sans","Helvetica",sans-serif;color:#000;font-weight:500}
 h1,.h1{font-size:28px}
-h2,.h2{font-size:24px;line-height:1.3;color:#404042;font-weight:bold;border-top:1px solid #e1e1e1;padding-top:15px}
+h2,.h2{font-size:24px;line-height:1.3;color:#000;font-weight:bold;border-top:1px solid #e1e1e1;padding-top:15px}
 h2:first-child,.h2:first-child{border-top:0}
 h3,.h3{font-size:20px;line-height:1.3;margin:30px 0 15px 0}
-h4,.h4{font-size:16px;color:#828282;font-weight:bold}
+h4,.h4{font-size:16px;color:#0d0d0d;font-weight:bold}
 .has-text-align-center{text-align:center}
-.btn{padding:5px 30px;font-weight:300;display:inline-block;font-size:15px;background-color:#fff;color:#00304c;text-align:center;-webkit-transition:background .3;transition:background .3;border:1px solid #404042;position:relative;font-family:"axiformabook","Helvetica",sans-serif;text-transform:uppercase;border-radius:30px;cursor:pointer;text-decoration:none}
+.info{background:#e0f2ff;padding:10px;margin:1em 0;font-size:12px;display:inline-block}
+.info p:last-child{margin-bottom:0}
+.note{background:#e2dbf1;padding:15px;margin:1em 0;font-size:12px}
+.note p:last-child{margin-bottom:0}
+.btn{padding:5px 30px;font-weight:300;display:inline-block;font-size:15px;background-color:#fff;color:#00304c;text-align:center;-webkit-transition:background .3;transition:background .3;border:1px solid #000;position:relative;font-family:"Open Sans","Helvetica",sans-serif;text-transform:uppercase;border-radius:30px;cursor:pointer;text-decoration:none}
 .btn:hover{color:#fff !important;background:#00304c}
-.button a{padding:5px 30px;font-weight:300;display:inline-block;font-size:15px;background-color:#fff;color:#00304c;text-align:center;-webkit-transition:background .3;transition:background .3;border:1px solid #404042;position:relative;font-family:"axiformabook","Helvetica",sans-serif;text-transform:uppercase;border-radius:30px;cursor:pointer;text-decoration:none;text-decoration:none !important}
+.button a{padding:5px 30px;font-weight:300;display:inline-block;font-size:15px;background-color:#fff;color:#00304c;text-align:center;-webkit-transition:background .3;transition:background .3;border:1px solid #000;position:relative;font-family:"Open Sans","Helvetica",sans-serif;text-transform:uppercase;border-radius:30px;cursor:pointer;text-decoration:none;text-decoration:none !important}
 .button a:hover{color:#fff !important;background:#00304c}
 .slick-slider{position:relative;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
 .slick-list{position:relative;overflow:hidden;display:block;margin:0;padding:0}
@@ -233,7 +262,7 @@ h4,.h4{font-size:16px;color:#828282;font-weight:bold}
 .page-content{padding-top:30px;padding-bottom:30px;line-height:2.0}
 .page-content a:not(.btn){text-decoration:underline;font-weight:600}
 .page-content a:not(.btn):hover{color:#00304c}
-.page-content .wp-block-code{padding:5px;background:#e1e1e1;border-radius:15px;color:#404042}
+.page-content .wp-block-code{padding:5px;background:#e1e1e1;border-radius:15px;color:#000}
 .page-content .wp-block-code code{padding:15px}
 .page-content img{margin:15px auto}
 .page-content h2{margin:30px 0 15px}
@@ -241,9 +270,9 @@ h4,.h4{font-size:16px;color:#828282;font-weight:bold}
 .dog-slider img{border:1px solid #e1e1e1}
 .my-new-block h2{color:#00304c}
 .my-new-block h3{display:inline-block;margin:0 0 15px}
-.my-new-block__attributes{background:#e1e1e1;padding:30px;color:#404042}
+.my-new-block__attributes{background:#e1e1e1;padding:30px;color:#000}
 .my-new-block__attributes p:last-child{margin-bottom:0}
-.my-new-block__attributes--item{border-bottom:1px solid #404042;padding-bottom:15px;margin-bottom:15px}
+.my-new-block__attributes--item{border-bottom:1px solid #000;padding-bottom:15px;margin-bottom:15px}
 .my-new-block__attributes--item:last-child{border-bottom:0;padding-bottom:0}
 @media(min-width:667px){.container{max-width:970px}
 .container,.container-sm{max-width:970px}

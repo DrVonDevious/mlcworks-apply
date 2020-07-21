@@ -288,6 +288,7 @@ gulp.task(
     gulp.parallel( 'styles', 'customJS', 'adminStyles', 'svg', browsersync, () => {
         gulp.watch( config.watchPhp, reload ); // Reload on PHP file changes.
         gulp.watch( config.watchStyles, gulp.parallel( 'styles' ) ); // Reload on SCSS file changes.
+        gulp.watch( config.watchAdminStyles, gulp.parallel( 'adminStyles' ) ); // Reload on SCSS file changes.
         gulp.watch( config.watchJsCustom, gulp.series( 'customJS', reload ) ); // Reload on customJS file changes.
         gulp.watch( config.svgSRC, gulp.parallel( 'svg' ) ); // Reload on SVG file changes.
     })

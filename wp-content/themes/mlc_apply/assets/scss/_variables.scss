@@ -2,7 +2,7 @@
 Colors
 *******************************/
 $blue : #00304c;
-$ltblue: #418FDE;
+$ltblue: #e0f2ff;
 $darkblue : darken($blue, 5%);
 $red : #ED1C24;
 $ltgreen: #B9D65B;
@@ -11,8 +11,10 @@ $darkgreen: #183F29;
 $tan : #9B8B5D;
 $gold : #A08A58;
 $pink : #EE2C70;
+$purple : #e2dbf1;
 $orange : #EF880A;
-
+$yellow : #FFFBEB;
+$ltpink : #fdf8f9;
 /*Greys*/
 $greygreen : #C5CFCA;
 $grey : #909090;
@@ -21,17 +23,16 @@ $darkgrey : #404042;
 $black : #000;
 $ltgrey: #E1E1E1;
 $white: rgba(#fff, 0.70);
-$yellow : #FFFBEB;
-$ltpink : #fdf8f9;
+
 
 
 /********************************
 Global Color Pallete
 *******************************/
 $primary-color: $blue;
-$secondary-color: $darkgrey;
-$color-1: $darkgreen;
-$color-2: $yellow;
+$secondary-color: $black;
+$color-1: $purple;
+$color-2: $ltblue;
 
 $color-black : $black;
 $color-white : #fff;
@@ -42,7 +43,7 @@ $color-light-grey: $ltgrey;
 /********************************
 Font Families
 *******************************/
-$primary-font-family:  "axiformabook", 'Helvetica', sans-serif;
+$primary-font-family:  'Open Sans', 'Helvetica', sans-serif;
 $secondary-font-family: $primary-font-family;
 $third-font-family : $primary-font-family;
 
@@ -84,7 +85,7 @@ $line-height : 1.9;
 /********************************
 Font Colors
 *******************************/
-$default-font-color: lighten(#5C5C5C, 10%);
+$default-font-color: $color-black;
 $dark-font-color: $default-font-color;
 $default-header-color: $secondary-color;
 
