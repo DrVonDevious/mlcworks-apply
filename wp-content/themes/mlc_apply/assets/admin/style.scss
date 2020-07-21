@@ -28,7 +28,6 @@ $xlg-break: 1440px;
 @import "../scss/mixins";
 @import "../scss/utilities";
 @import "../scss/modules";
-@import "../scss/page";
 
 #wpbody {
 	.page-title {
@@ -43,7 +42,7 @@ body {
 }
 .block-editor-block-list__layout, .editor-styles-wrapper {
 
-	@import "../scss/HTML";
+	
 	@import "../scss/type";
 	@import "../scss/acf";
 	.wp-block {
