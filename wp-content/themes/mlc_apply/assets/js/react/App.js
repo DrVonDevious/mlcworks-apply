@@ -2,7 +2,6 @@ import ReactHabitat 				from 'react-habitat'
 import Header 						from './template/Header'
 import Footer 						from './template/Footer'
 import DogSlider 					from './components/DogSlider'
-import MyNewBlock 					from './components/MyNewBlock'
 
 class App extends ReactHabitat.Bootstrapper {
 	constructor(){
@@ -20,9 +19,6 @@ class App extends ReactHabitat.Bootstrapper {
 		// DogSlider
 		containerBuilder.register(DogSlider).as('DogSlider')
 
-		// MyNewBlock
-		containerBuilder.register(MyNewBlock).as('MyNewBlock')
-
 		// Set the DOM container
 		this.setContainer(containerBuilder.build())
 	}
@@ -36,5 +32,5 @@ class App extends ReactHabitat.Bootstrapper {
 		this.setContainer(this.container)
 	}
 }
-
+9
 export default new App()
