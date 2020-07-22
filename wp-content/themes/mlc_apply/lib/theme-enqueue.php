@@ -26,7 +26,7 @@ function theme_styles() {
 
 	$theme_dir = get_template_directory_uri();
 
-	wp_enqueue_style( 'main', "$theme_dir/inc/css/style.css", array(), '1.1.1' );
+	wp_enqueue_style( 'main', "$theme_dir/inc/css/style.css", array(), '1.1.2' );
 
 	// Dequeue Default Styles
 	wp_dequeue_style( 'wp-block-library' );
@@ -58,5 +58,5 @@ function theme_scripts() {
 	// Include jQuery to prevent any breakage
 	wp_enqueue_script( 'jquery-core' );
 	// Include Bundle File
-    wp_enqueue_script( 'mlc', "$theme_dir/inc/js/bundle.js", array(), '1.0.0', true );
+    wp_enqueue_script( 'mlc', "$theme_dir/inc/js/bundle.js", array(), '1.0.1', true );
 }

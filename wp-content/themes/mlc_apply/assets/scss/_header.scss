@@ -5,22 +5,8 @@
 		svg {
 			width: 197px;
 			height: 37px;
-			.square {
+			.mlc-text {
 				fill: $color-white;
-				&-top, &-bottom {
-					transition: transform 0.3s ease;
-				}
-			}
-			&:hover {
-				.square {
-					fill: $color-black;
-					&-top {
-						transform: translateY(-10px);
-					}
-					&-bottom {
-						transform: translateY(10px);
-					}
-				}
 			}
 		}
 	}

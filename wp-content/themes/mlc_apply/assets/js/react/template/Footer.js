@@ -1,6 +1,6 @@
 import React 								from 'react'
 import {htmlDecode} 						from '../helpers/functions'
-import MainLogo 							from '../../../../assets/svg/MlcSquare.svg'
+import MainLogo 							from '../../../../assets/svg/MlcLogo.svg'
 import {viewports} 							from '../helpers/viewports'
 
 class Footer extends React.PureComponent {
