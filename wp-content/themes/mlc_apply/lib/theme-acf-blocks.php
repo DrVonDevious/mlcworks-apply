@@ -23,16 +23,6 @@ function acf_mlc_blocks() {
 		'icon'				=> 'admin-comments',
 		'keywords'			=> array( 'dog', 'dog slider' , 'slider'),
 	));
-	// My New Block
-	acf_register_block(array(
-		'name'				=> 'my-new-block',
-		'title'				=> __('My New Block'),
-		'description'		=> __('Really just a dog slider'),
-		'render_callback'	=> 'acf_block_render_callback',
-		'category'			=> 'formatting',
-		'icon'				=> 'admin-comments',
-		'keywords'			=> array( 'block', 'new' , 'new block'),
-	));
 }
 
 function acf_block_render_callback( $block ) {
