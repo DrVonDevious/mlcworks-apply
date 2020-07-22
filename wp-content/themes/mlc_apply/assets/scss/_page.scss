@@ -35,11 +35,11 @@
 			}
 		}
 		.wp-block-code {
-			padding: 5px;
+			padding: 15px 30px;
 			/*min-height: 60px;*/
-			background: $border-color;
+			background: $sublime;
 			border-radius: 15px;
-			color: $secondary-color;
+			color: #a0da2b;
 			code {
 				padding: $padding-sm;
 				
@@ -51,6 +51,7 @@
 			padding: 30px;
 			h2 {
 				margin-top: 0;
+				padding-top: 0;
 			}
 			input[type="submit"]{
 				@include btn();
@@ -60,12 +61,23 @@
 			}
 		}
 
+		.spacing {
+			margin: 30px 0;
+		}
+		.border-bottom {
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 30px;
+		}
+
 		img {
 			margin: 15px auto;
 		}
 
 		h2 {
 			margin: $padding-md 0 $padding-sm;
+			&:first-child {
+				margin-top: 0;
+			}
 		}
 	}
 }

@@ -262,14 +262,17 @@ h4,.h4{font-size:16px;color:#0d0d0d;font-weight:bold}
 .page-content{padding-top:30px;padding-bottom:30px;line-height:2.0}
 .page-content a:not(.btn){text-decoration:underline;font-weight:600}
 .page-content a:not(.btn):hover{color:#00304c}
-.page-content .wp-block-code{padding:5px;background:#e1e1e1;border-radius:15px;color:#000}
+.page-content .wp-block-code{padding:15px 30px;background:#282923;border-radius:15px;color:#a0da2b}
 .page-content .wp-block-code code{padding:15px}
 .page-content .form{background:#e1e1e1;padding:30px}
-.page-content .form h2{margin-top:0}
+.page-content .form h2{margin-top:0;padding-top:0}
 .page-content .form input[type="submit"]{padding:5px 30px;font-weight:300;display:inline-block;font-size:15px;background-color:#fff;color:#00304c;text-align:center;-webkit-transition:background .3;transition:background .3;border:1px solid #000;position:relative;font-family:"Open Sans","Helvetica",sans-serif;text-transform:uppercase;border-radius:30px;cursor:pointer;text-decoration:none;font-weight:bold;font-size:18px;padding:10px 60px}
 .page-content .form input[type="submit"]:hover{color:#fff !important;background:#00304c}
+.page-content .spacing{margin:30px 0}
+.page-content .border-bottom{border-bottom:1px solid #e1e1e1;padding-bottom:30px}
 .page-content img{margin:15px auto}
 .page-content h2{margin:30px 0 15px}
+.page-content h2:first-child{margin-top:0}
 .dog-slider{margin:30px auto}
 .dog-slider img{border:1px solid #e1e1e1}
 .my-new-block h2{color:#00304c}
