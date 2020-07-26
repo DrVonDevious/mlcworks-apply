@@ -23,6 +23,17 @@ function acf_mlc_blocks() {
 		'icon'				=> 'admin-comments',
 		'keywords'			=> array( 'dog', 'dog slider' , 'slider'),
 	));
+
+	// Goodest Boi Block
+	acf_register_block(array(
+		'name'				=> 'goodest-boi-block',
+		'title'				=> __('Goodest Boi Block'),
+		'description'		=> __('Only the goodest bois go here'),
+		'render_callback'	=> 'acf_block_render_callback',
+		'category'			=> 'formatting',
+		'icon'				=> 'admin-comments',
+		'keywords'			=> array( 'dog', 'goodest boi' , 'doges'),
+	));
 }
 
 function acf_block_render_callback( $block ) {

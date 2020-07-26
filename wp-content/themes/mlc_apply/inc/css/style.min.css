@@ -272,6 +272,12 @@ h4,.h4{font-size:16px;color:#0d0d0d;font-weight:bold}
 .page-content h2:first-child{margin-top:0}
 .dog-slider{margin:30px auto}
 .dog-slider img{border:1px solid #e1e1e1}
+.goodest-boi-block h2{color:#00304c}
+.goodest-boi-block h3{display:inline-block;margin:0 0 15px}
+.goodest-boi-block__attributes{background:#e1e1e1;padding:30px;color:#000}
+.goodest-boi-block__attributes p:last-child{margin-bottom:0}
+.goodest-boi-block__attributes--item{border-bottom:1px solid #000;padding-bottom:15px;margin-bottom:15px}
+.goodest-boi-block__attributes--item:last-child{border-bottom:0;padding-bottom:0}
 @media(min-width:667px){.container{max-width:970px}
 .container,.container-sm{max-width:970px}
 .col-sm{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;min-width:0;max-width:100%}
